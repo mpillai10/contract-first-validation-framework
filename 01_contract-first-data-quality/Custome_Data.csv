@@ -1,0 +1,6 @@
+customer_id,email,age,country
+C001,john@example.com,25,Australia
+C002,invalid_email.com,17,India
+C003,sara@example.com,105,USA
+C004,,45,Canada
+C001,jane@example.com,30,India
