@@ -1,1 +1,22 @@
-
+{
+  "table":"customers",
+  "columns":{
+     "customer_id": {
+      "type": "string",
+      "required": true,
+      "unique": true},
+     "email":        {
+      "type": "string",
+      "required": true,
+      "format": "email"},
+     "age":          {
+      "type": "integer",
+      "min": 18,
+      "max": 100,
+      "required": true},
+    "country":       {
+      "type": "string",
+      "allowed_values": ["Australia", "India", "USA"],
+      "required": false}
+           }
+}
